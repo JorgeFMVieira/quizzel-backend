@@ -7,6 +7,6 @@ app.get("/", (req: any) => {
 });
 
 app.listen(3001, () => {
-    console.log("started");
+    console.log("server listening on port");
 });
 
