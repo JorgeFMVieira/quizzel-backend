@@ -24,7 +24,7 @@ app.use(express.urlencoded({ extended: false }));
 app.use('/api', router);
 
 app.listen(port, () => {
-    console.log("Server good running");
+    console.log("Server good running, gg");
 });
 
 export default app;
